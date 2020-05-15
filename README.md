@@ -14,4 +14,6 @@ Open the file [DynamicMemAlloc_cfg.h](https://github.com/MinaH94/Dynamic-Mem-Lib
 The size should be a multiple of `sizeof(void*)`, else it'll be rounded down, for further reading about this requirement/restriction see this: [The Lost Art of Structure Packing: 3. Alignment requirements](http://www.catb.org/esr/structure-packing/)
 
 ## TODO
-Implement `realloc()`: get node address of given addr, if next node by pointer math is in free list, and sizes of both nodes combined (this node and next one by pointer math) has blocks count >= required, then accept request.
+- Implement `realloc()`: get node address of given addr, if next node by pointer math is in free list, and sizes of both nodes combined (this node and next one by pointer math) has blocks count >= required, then accept request.
+
+- Make the APIs of the linked-list return boolean value
