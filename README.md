@@ -9,7 +9,7 @@ This is written to be a target-independant library, hence it could be used anywh
 But it was mainly written for STM32, also the test application is written for STM32.
 
 ## How to use
-Open the file `DynamicMemAlloc_cfg.h` and set the macro `DYNAMIC_MEMORY_POOL_SIZE_BYTES` to the required size of the heap (in bytes).
+Open the file [DynamicMemAlloc_cfg.h](https://github.com/MinaH94/Dynamic-Mem-Lib/blob/master/Library/include/DynamicMemAlloc.h) and set the macro `DYNAMIC_MEMORY_POOL_SIZE_BYTES` to the required size of the heap (in bytes).
 
 The size should be a multiple of `sizeof(void*)`, else it'll be rounded down, for further reading about this requirement/restriction see this: [The Lost Art of Structure Packing: 3. Alignment requirements](http://www.catb.org/esr/structure-packing/)
 
