@@ -1,12 +1,12 @@
 # Dynamic Mem Lib
-A library for dynamic memory allocation, couldn't find a more generic name!
+A library for dynamic memory allocation, uses a circular linked-list.
 
 ## Credits
 All credits to Phillip Johnston for his amazing explanation at: [Implementing Malloc: First-fit Free List](https://embeddedartistry.com/blog/2017/02/15/implementing-malloc-first-fit-free-list/)
 
 ## Target
 This is written to be a target-independant library, hence it could be used anywhere! \
-But it was mainly written for STM32.
+But it was mainly written for STM32, also the test application is written for STM32.
 
 ## How to use
 Open the file `DynamicMemAlloc_cfg.h` and set the macro `DYNAMIC_MEMORY_POOL_SIZE_BYTES` to the required size of the heap (in bytes).
