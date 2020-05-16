@@ -3,7 +3,7 @@
 #include <diag/Trace.h>
 
 
-u32 mempool[16];
+void* mempool[16];
 
 void* ptr;
 void* ptr1;
