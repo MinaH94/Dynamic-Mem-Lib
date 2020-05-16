@@ -19,7 +19,7 @@ Sample code:
 #include "DynamicMemAlloc.h"
 #include <stdio.h>
 
-/* this pointers will hold the addresses of the allocated memory blocks */
+/* these pointers will hold the addresses of the allocated memory blocks */
 void* ptr;
 void* ptr1;
 
