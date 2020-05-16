@@ -24,7 +24,7 @@ void* ptr;
 void* ptr1;
 
 /* an optional memory heap/pool */
-//u32 mempool[16];
+//void* mempool[16];
 
 void main(void)
 {
