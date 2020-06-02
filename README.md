@@ -28,7 +28,7 @@ void* ptr1;
 
 void main(void)
 {
-   /* (optional) add the our memory pool to the list of free memory */
+   /* (optional) add our memory pool to the list of free memory */
    //DynamicMem_AppendBlock(mempool, sizeof(mempool));
 
    /* try to allocate 4 bytes */
